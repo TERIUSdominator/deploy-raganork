@@ -1,5 +1,5 @@
 {
-    "name": "rgnk wabot",
+    "name": "TERIUS rgnk wabot",
     "description": "WhatsApp public/user bot",
     "logo": "",
     "keywords": ["WhatsApp"],
@@ -11,7 +11,7 @@
         "HANDLERS": {
             "description": "Prefix of commands. Can be also false",
             "required": true,
-            "value":".,"
+            "value":"T"
         },
         "MULTI_HANDLERS": {
             "description": "Use prefix as given handlers and also without handlers",
@@ -41,7 +41,7 @@
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"Raganork pack;Author name"
+            "value":"Raganork pack;TERIUS"
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -51,7 +51,7 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"TERIUS Raganork"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
@@ -66,7 +66,7 @@
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":""
+            "value":"2349047646214"
         },
         "BLOCK_CHAT": {
             "description": "Block bot in specific groups, enter jids here sepereated with commas",
